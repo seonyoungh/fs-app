@@ -1,10 +1,10 @@
 import requests
 
-API_KEY = 'e3f8dfea848d383e1bc7f8af048616d0a7c22347'
+API_KEY = ''
 BASE_URL = 'https://opendart.fss.or.kr/api/fnlttSinglAcnt.json'
 
 # Gemini API Key
-GEMINI_API_KEY = 'AIzaSyC0A_f8rL0dSV52RLt3F6YFio0yYGWClEU'
+GEMINI_API_KEY = ''
 GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent'
 
 # reprt_code 예시: 11011(사업보고서), 11012(반기), 11013(1분기), 11014(3분기)
