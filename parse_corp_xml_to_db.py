@@ -1,9 +1,14 @@
 import sqlite3
 import xml.etree.ElementTree as ET
+import os
+import requests
 
 # XML 파일과 DB 파일 경로
 XML_FILE = 'corp.xml'
 DB_FILE = 'corp.db'
+
+API_KEY = os.environ.get('DART_API_KEY')
+GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
 
 # SQLite DB 연결 및 테이블 생성
 def init_db():
